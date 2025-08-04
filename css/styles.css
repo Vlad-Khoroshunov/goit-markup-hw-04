@@ -410,9 +410,9 @@ button{
   letter-spacing: 0.02em;
   color: #FFFFFF;
   max-width: 264px;
-  content: Social media;
+  /* content: Social media;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin-bottom: 16px; */
 }
 
 .div-footer {
@@ -459,4 +459,14 @@ button{
 
 .icons-footer {
   fill: #f4f4fd;
+}
+.footer-social-p {
+  content: Social media;
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  
 }
