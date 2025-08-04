@@ -255,17 +255,7 @@ button{
 
 /* Our Team */
 
-.social-team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
-  padding-top: 8px;
-}
+
 
 .team{
   background-color: #f4f4fd;
@@ -309,9 +299,19 @@ button{
 }
 
 .team-block{
-  padding-top: 32px;
+  padding: 32px 0;
 }
 
+.social-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+}
 .team-text{
   font-size: 16px;
   line-height: 1.5;
