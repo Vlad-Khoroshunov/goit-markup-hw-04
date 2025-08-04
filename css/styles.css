@@ -418,9 +418,16 @@ button{
 .div-footer {
   display: flex;
   align-items: baseline;
+}
+
+.div-footer-logo {
   margin-right: 120px;
 }
 
+.div-footer-socials {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-list {
   display: flex;
