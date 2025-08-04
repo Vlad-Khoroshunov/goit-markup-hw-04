@@ -304,6 +304,7 @@ button{
 .social-icons-team {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .link-socials {
@@ -407,6 +408,47 @@ button{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #FFFFFF;
   max-width: 264px;
+  content: Social media;
+  font-weight: 500;
+
+}
+
+.div-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-icon {
+  margin-right: 120px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-social-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.link-socials-footer {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-socials-footer:hover {
+  background-color: #31d0aa;
+}
+.link-socials-footer:focus {
+  background-color: #31d0aa;
+}
+
+.icons-footer {
+  fill: #f4f4fd;
 }
