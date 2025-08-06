@@ -299,7 +299,6 @@ button{
 .social-icons-team {
   width: 40px;
   height: 40px;
-   
 }
 
 .link-socials {
@@ -327,6 +326,7 @@ button{
   gap: 24px;
   fill: #f4f4fd;
   align-items: center;
+  margin-top: 8px;
 }
 .team-text{
   font-size: 16px;
@@ -445,6 +445,11 @@ button{
 .copyright-text {
   width: 264px;
   color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 .text-social-media {
   font-weight: 500;
